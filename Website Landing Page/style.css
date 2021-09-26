@@ -1,0 +1,37 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* Navbar Desktop */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid red;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/computer.jpeg);
+    background-size: cover;
+    height: 640px;
+}
+
+/* Jumbotron Desktop */
+@media (min-width: 992px) {
+    .jumbotron {
+        margin-top: -75px;
+    }
+
+}
